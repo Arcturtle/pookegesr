@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+.bg {
+    margin-left: 30vw;
+    margin-top: 5vh;
+    width: 40vw;
+    height: 80vh;
+    background-color: rgb(222, 109, 109);
+    display: block;
+    border-radius: 16px;
+    padding-top: 10vh;
+}
+
+.pokemonframe {
+    width: 20vw;
+    height: 20vw;
+    margin: auto;
+    display: block;
+    border: 4px solid black;
+}
+
+#userinput {
+    margin-top: 2vh;
+    margin-left: 7.5vw;
+    width: 25vw;
+    height: 3vh;
+}
+
+#submitbutton {
+    margin-top: 2vh;
+    margin-left: 11vw;
+    width: 17.5vw;
+    height: 5vh;
+}
+
+#pokemon {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+canvas {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -1;
+}
